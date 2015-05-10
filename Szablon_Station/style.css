@@ -1,0 +1,53 @@
+/* odstepy, pierdoły */
+body, h1, h2, h3, h4, h5, h6, header, html, p, u, ul { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+img { vertical-align:top; }
+
+/* podstawowe klasy */
+.left { float:left;}
+.right { float:right;}
+.inp {width:100%; overflow:hidden;}
+
+/* body, strona, tresc */
+body{ background:#f0f1f0; font:16px Verdana; color:#6b6b6b; line-height:20px;
+letter-spacing:0.9; word-spacing:1.7px;line-height:1.8;text-align:justify;
+background:url(images/bg2.png) repeat-x; height: 100%;}
+.strona {height:100%; margin: 0 auto -78px; }
+.tresc {	margin: 0 auto;	width: 1000px; }
+
+a { color:#6b6b6b; text-decoration: underline; outline:none; }
+a:hover { text-decoration: none; }
+p { padding-bottom:25px; }
+h2 { font-size:26px; color:#000000; line-height:1.2em; padding:15px 0 15px 0; letter-spacing:1px; }
+
+h1{ font-size:70px; line-height:1.2em; padding:78px 0 26px 17px; text-transform:none; margin-left:-5px; letter-spacing:0px; margin-bottom:-17px;}
+h1 a { text-decoration:none;}
+
+.menu { padding:0 25px; overflow:hidden;}
+.menu li { float:left; }
+.menu li a{ display: block; padding:14px 18px; font-size:23px; text-decoration:none; line-height:25px; height:25px; letter-spacing:-1px;}
+
+.content{ padding-top:40px; width:100%; overflow:hidden}
+.color1{ color:#000}
+.font1{ font-size:16px; color:#000}
+.list1{ margin:-4px 0 15px 5px;}
+.list1 li{ line-height:30px;}
+.list1 li a{ color:#6b6b6b !important; padding-left:13px; background:url(images/mnu.png) 0 4px  no-repeat}
+
+.button{ display:inline-block; color:#fff !important; text-decoration:none; line-height:34px; padding:0 17px; background:#6A2B2B}
+.button:hover{ background:#4A4A4A !important; color:#e1e1e1 !important}
+
+form div{ height:40px; }
+form  .input {width:220px; border:1px solid #DCDEDC; background:#fff; padding:6px 8px; color:#B6B6B6; font:14px Arial, Helvetica, sans-serif; height:16px}
+
+.kolumna_lewa{ width:700px; float:left;}
+.kolumna_prawa{ width:250px; float:left; padding-left:45px;}
+
+
+#paka h1 a{ color:#710909;}
+#paka .menu{ background:#710909}
+#paka .menu li a {background:#710909 !important; color:#F0F1F0;}
+#paka .menu li a:hover {background:#F0F1F0 !important; color:#710909  !important;}
+#paka a{ color:#710909}
+#paka .list1 li a:hover{ color:#710909 !important}
+#stopka {height:78px;text-align:center;margin-top:30px;font-size:12px;}
